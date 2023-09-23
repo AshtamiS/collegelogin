@@ -1,0 +1,58 @@
+
+  .body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.image{background-image: url("https://work.ifixcompany.online/validation/fathima1/assets/images/bg-img.jpg");
+
+}
+.label{
+    color: red;
+}
+@media(max-width:500px){
+    .mdtitle{
+        padding: 20px;
+        width: 100%;
+    }
+    .textwelcome{
+        font-size: 20px;
+    }
+    .small{
+        width: fit-content;
+        padding: 10px;
+
+    }
+    .smallMarried{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:550px){
+    .small{
+       margin-top: 5px;
+
+
+    }
+    .smallmgt{
+        margin-top: 5px;
+    }
+}
+value:invalid ~ label{
+    display: block;
+}
+::placeholder {
+    color: rgb(255, 255, 255); /* Change this to the desired color */
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
